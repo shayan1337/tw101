@@ -1,0 +1,1 @@
+This is a Git repository for the programming assignments provided by ThoughtWorks as part of the initiation process for ThoughtWorks University Programme.
