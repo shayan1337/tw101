@@ -4,11 +4,11 @@ public class Asterisk {
 
     char asterisk;
 
-    Asterisk() {
+    public Asterisk() {
         asterisk = '*';
     }
 
-    private void print() {
+    public void print() {
         System.out.println(asterisk);
     }
 }

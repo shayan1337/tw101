@@ -5,12 +5,12 @@ public class VerticalAsteriskLine {
     int lengthOfLine;
     char character;
 
-    VerticalAsteriskLine (int lengthOfLine, char character) {
+    public VerticalAsteriskLine (int lengthOfLine) {
         this.lengthOfLine = lengthOfLine;
         this.character = '*';
     }
 
-    void draw() {
+    public void draw() {
 
         for(int i=0; i < lengthOfLine; i++)
             System.out.println(character);
