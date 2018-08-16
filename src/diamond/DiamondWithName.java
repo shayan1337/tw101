@@ -1,16 +1,22 @@
-class Diamond {
+package diamond;
+
+public class DiamondWithName {
 
     int height;
     char character;
+    String name;
 
-    Diamond(int height, char character){
+    DiamondWithName(int height, char character, String name) {
+
         this.height = height;
         this.character = character;
+        this.name = name;
     }
 
-    void draw(){
+    void draw() {
+
         char space = ' ';
-        for(int line=0; line < height; line++){
+        for(int line=0; line < height-1; line++) {
 
             for(int spaces=0; spaces < height-line-1; spaces++)
                 System.out.print(space);
@@ -21,8 +27,10 @@ class Diamond {
             System.out.println();
         }
 
-        for(int line = height-2; line >= 0; line--)
-        {
+        System.out.println(name);
+
+        for(int line = height-2; line >= 0; line--) {
+
             for(int spaces=0; spaces < height - line -1; spaces++)
                 System.out.print(space);
 
@@ -31,15 +39,5 @@ class Diamond {
 
             System.out.println();
         }
-    }
-}
-
-
-class DiamondApp{
-
-    public static void main(String args[]){
-
-        Diamond diamond = new Diamond(10,'*');
-        diamond.draw();
     }
 }
