@@ -5,12 +5,12 @@ public class FizzBuzz {
     int fizzNumber;
     int buzzNumber;
 
-    FizzBuzz(int fizzNumber, int buzzNumber) {
+    public FizzBuzz(int fizzNumber, int buzzNumber) {
         this.fizzNumber = fizzNumber;
         this.buzzNumber = buzzNumber;
     }
 
-    void play() {
+    public void play() {
 
         for(int number=1; number <= 100; number++) {
 

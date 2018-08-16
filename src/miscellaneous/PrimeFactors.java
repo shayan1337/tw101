@@ -2,7 +2,7 @@ package miscellaneous;
 
 import java.util.ArrayList;
 
-class PrimeFactors{
+public class PrimeFactors{
 
     private static boolean isPrime(int number){
 
