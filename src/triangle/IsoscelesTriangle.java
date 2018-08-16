@@ -5,12 +5,12 @@ public class IsoscelesTriangle {
     int height;
     char character;
 
-    IsoscelesTriangle(int height, char character){
+    public IsoscelesTriangle(int height, char character){
         this.height = height;
         this.character = character;
     }
 
-    void draw() {
+    public void draw() {
 
         char space = ' ';
         for (int line = 0; line < height; line++) {

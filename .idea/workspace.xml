@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b021ddae-9813-491c-872d-b78869e7d512" name="Default Changelist" comment="" />
+    <list default="true" id="b021ddae-9813-491c-872d-b78869e7d512" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triangle/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/triangle/RightTriangle.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,25 +25,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="33" />
+          <entry key="java" value="38" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="33" />
+          <entry key="JAVA" value="38" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1376" />
+          <entry key="java" value="1710" />
           <entry key="md" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1376" />
+          <entry key="JAVA" value="1710" />
           <entry key="PLAIN_TEXT" value="168" />
         </counts>
       </usages-collector>
@@ -48,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/driver/DiamondApp.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/driver/TriangleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="666">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,11 +63,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/diamond/Diamond.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triangle/RightTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -91,13 +103,9 @@
         <option value="$PROJECT_DIR$/src/HorizontalLineApp.java" />
         <option value="$PROJECT_DIR$/src/asterisk/HorizontalAsteriskLIne.java" />
         <option value="$PROJECT_DIR$/src/IsoscelesTriangleApp.java" />
-        <option value="$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java" />
         <option value="$PROJECT_DIR$/src/RightTriangleApp.java" />
-        <option value="$PROJECT_DIR$/src/triangle/RightTriangle.java" />
         <option value="$PROJECT_DIR$/src/DiamondApp.java" />
-        <option value="$PROJECT_DIR$/src/diamond/Diamond.java" />
         <option value="$PROJECT_DIR$/src/DiamondWithNameApp.java" />
-        <option value="$PROJECT_DIR$/src/diamond/DiamondWithName.java" />
         <option value="$PROJECT_DIR$/src/FizzBuzzApp.java" />
         <option value="$PROJECT_DIR$/src/miscellaneous/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/PrimeFactorsApp.java" />
@@ -106,7 +114,12 @@
         <option value="$PROJECT_DIR$/src/asterisk/HorizontalAsteriskLine.java" />
         <option value="$PROJECT_DIR$/src/asterisk/VerticalAsteriskLine.java" />
         <option value="$PROJECT_DIR$/src/driver/AsteriskApp.java" />
+        <option value="$PROJECT_DIR$/src/diamond/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/diamond/DiamondWithName.java" />
         <option value="$PROJECT_DIR$/src/driver/DiamondApp.java" />
+        <option value="$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java" />
+        <option value="$PROJECT_DIR$/src/driver/TriangleApp.java" />
+        <option value="$PROJECT_DIR$/src/triangle/RightTriangle.java" />
       </list>
     </option>
   </component>
@@ -141,13 +154,19 @@
               <item name="tw101" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="diamond" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tw101" type="b2602c69:ProjectViewProjectNode" />
               <item name="tw101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="miscellaneous" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tw101" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tw101" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="triangle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534449503444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534449769407" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -174,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiamondApp">
+  <component name="RunManager" selected="Application.TriangleApp">
     <configuration name="AsteriskApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="driver.AsteriskApp" />
       <module name="tw101" />
@@ -201,16 +220,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAsterisk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintAsterisk" />
+    <configuration name="RightTriangleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RightTriangleApp" />
       <module name="tw101" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RightTriangleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RightTriangleApp" />
+    <configuration name="TriangleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="driver.TriangleApp" />
       <module name="tw101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,19 +248,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrintAsterisk" />
       <item itemvalue="Application.RightTriangleApp" />
       <item itemvalue="Application.VerticalLineApp" />
       <item itemvalue="Application.AsteriskApp" />
       <item itemvalue="Application.DiamondApp" />
+      <item itemvalue="Application.TriangleApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TriangleApp" />
         <item itemvalue="Application.DiamondApp" />
         <item itemvalue="Application.AsteriskApp" />
         <item itemvalue="Application.VerticalLineApp" />
         <item itemvalue="Application.RightTriangleApp" />
-        <item itemvalue="Application.PrintAsterisk" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +295,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.040783033" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.029363785" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.019575857" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.5611746" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -380,20 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/triangle/RightTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DiamondWithNameApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -417,13 +428,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrimeFactorsApp.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/diamond/DiamondWithName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/miscellaneous/PrimeFactors.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -467,20 +471,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/diamond/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/diamond/DiamondWithName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/driver/DiamondApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="471">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/diamond/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/triangle/IsoscelesTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="172">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/triangle/RightTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/driver/TriangleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
