@@ -5,12 +5,12 @@ public class Diamond {
     int height;
     char character;
 
-    Diamond(int height, char character) {
+    public Diamond(int height, char character) {
         this.height = height;
         this.character = character;
     }
 
-    void draw() {
+    public void draw() {
         char space = ' ';
         for(int line=0; line < height; line++) {
 

@@ -6,14 +6,14 @@ public class DiamondWithName {
     char character;
     String name;
 
-    DiamondWithName(int height, char character, String name) {
+    public DiamondWithName(int height, char character, String name) {
 
         this.height = height;
         this.character = character;
         this.name = name;
     }
 
-    void draw() {
+    public void draw() {
 
         char space = ' ';
         for(int line=0; line < height-1; line++) {
